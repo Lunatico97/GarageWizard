@@ -1,0 +1,58 @@
+<div class="job-crud-container">
+  <div class="add-job-container">
+    <form [formGroup]="jobFormGroup" (ngSubmit)="onAddJobCallback()">
+      <h2> Add a new repair job </h2>
+      <mat-form-field appearance="fill">
+        <mat-label>Name</mat-label>
+        <input matInput formControlName="name" required>
+        <mat-error>
+          Name can't be empty and it shouldn't start with anything but an alphabet !
+        </mat-error>
+      </mat-form-field><br>
+      <mat-form-field appearance="fill">
+          <mat-label>Description</mat-label>
+          <textarea matInput formControlName="description" required rows="3"></textarea>
+          <mat-error>
+              Description can't be empty and its length shouldn't exceed 100 !
+          </mat-error>
+        </mat-form-field><br>
+        <mat-form-field appearance="fill">
+          <mat-label>Charge</mat-label>
+          <input matInput type="number" min="1" formControlName="charge" required>
+        </mat-form-field><br>
+        <mat-form-field appearance="fill">
+          <mat-label>Hours</mat-label>
+          <input matInput type="number" min="1" formControlName="hours" required>
+          <mat-error>
+              A job can't complete instantly !
+          </mat-error>
+        </mat-form-field><br>
+        <input type="file" (change)="onFileChange($event)" accept="image/*">  
+        <br><br>
+        <div>
+          <button mat-raised-button color="primary" type="submit">Add job</button>
+        </div>
+    </form>
+  </div>
+  <hr/>
+  <div class="delete-job-container">
+    <form (ngSubmit)="onDeleteCallback()">
+      <h2> Delete a particular job </h2>
+              <mat-form-field appearance="fill">
+                  <mat-label>Job</mat-label>
+                  <mat-select [formControl]="jobIDControl">
+                      <mat-option [value]="">Select</mat-option>
+                      <mat-option *ngFor="let job of jobsData;" [value]="job.id"> {{ job.name }} </mat-option>
+                  </mat-select>
+                  <mat-error>
+                      Choose a job to delete !!
+                  </mat-error>
+              </mat-form-field>
+      <br>
+      <div>
+        <button mat-raised-button color="primary" type="submit">Delete job</button>
+      </div>
+    </form>
+  </div>
+</div>
+  

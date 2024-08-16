@@ -1,0 +1,7 @@
+<nav mat-tab-nav-bar>
+    <a mat-tab-link (click)="activeLink = link" *ngFor="let link of navlinks; index as i;"
+     [routerLink] = "[link]" [active]="activeLink == link">
+      <img *ngIf="navImg.length != 0" src="{{ navImg[i] }}"> &nbsp;
+      {{navTitles[i]}} 
+    </a>
+</nav>

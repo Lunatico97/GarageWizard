@@ -1,0 +1,10 @@
+.job-crud-container
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.add-job-container, .delete-job-container{
+    flex: 1;
+    padding: 30px;
+}

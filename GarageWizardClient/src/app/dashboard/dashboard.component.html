@@ -1,0 +1,71 @@
+<div class="dashboard">
+    <div class="dashboard-header">
+        <h1> Dashboard </h1>
+        <hr />
+    </div>
+    <div class="dashboard-content">
+        <div *ngIf="checkIfLoggedIn() && !loading;" class="user-container">
+            <button mat-raised-button id="change-pwd-button" (click)="onChangePasswordCallback()">
+                <img src="assets\reset-password.png">
+                Change Password
+            </button>
+            <h2>User Details</h2>
+            <div class="detail-item">
+                <span class="detail-label">Name:</span>
+                <span class="detail-value">{{ currentUser.name }}</span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Email:</span>
+                <span class="detail-value">{{ currentUser.email }}</span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Role:</span>
+                <span class="detail-value">{{ currentUser.role }}</span>
+            </div>
+        </div>
+        <div *ngIf="!checkIfLoggedIn()" class="user-container">
+            <div class="detail-item"> <strong> {{ message }} </strong> &nbsp;
+                <button mat-flat-button color="primary" (click)="onClick()" style="float: right;"> Login / Register
+                </button>
+            </div>
+        </div>
+        <div *ngIf="!loading;" class="stats-container">
+            <h2>Statistics Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="label">Two Wheelers</span>
+                    <span class="value" id="twoWheelers"> {{ stats.twoWheelers }}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">Four Wheelers</span>
+                    <span class="value" id="fourWheelers"> {{ stats.fourWheelers }} </span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">Vehicles on Repair</span>
+                    <span class="value" id="vehiclesOnRepair"> {{ stats.vehiclesOnRepair }} </span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">Vacant Spots</span>
+                    <span class="value" id="vacantSpots"> {{ stats.vacantSpots }} </span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">Revenue from Toll</span>
+                    <span class="value" id="revenueFromToll"> $ {{ stats.revenueFromToll | round: 2 }} </span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">Revenue from Repairs</span>
+                    <span class="value" id="revenueFromRepairs"> $ {{ stats.revenueFromRepairs | round: 2 }} </span>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="loading" class="stats-container">
+            <h1> Loading ... </h1>
+        </div>
+        <div class="analytics-content">
+            <div class="chart-container">
+                <canvas id="MyChart">{{ chart }}</canvas>
+                <canvas id="MyPieChart">{{ chart }}</canvas>
+            </div>
+        </div>
+    </div>
+</div>

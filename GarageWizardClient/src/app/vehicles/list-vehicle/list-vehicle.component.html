@@ -1,0 +1,21 @@
+<button mat-raised-button color="accent" (click)="this._router.routeToPath('vehicles/park')"> Park your vehicle
+</button>
+<hr />
+<div *ngIf="viewSpecific" class="specifics">
+    <img src="assets/cancel.png" (click)="this.viewSpecific = false;">
+    <p>
+        <u><strong id="specifics-title"> {{ specificVehicle.vendor }}'s {{ specificVehicle.name }} </strong></u> <br>
+        Registration ID: <strong> {{ specificVehicle.regID }} </strong> <br>
+        Wheels: <strong> {{ specificVehicle.wheels }} </strong> <br>
+        Parked At: <strong> Spot '{{ specificVehicle.parkedSpotID }}' </strong> <br>
+        Parked Since: <strong> {{ specificVehicle.parkedSince }} </strong> <br>
+        <!-- <strong> Parked For: {{ specificVehicle.parkedFor }} </strong> -->
+    </p>
+</div>
+<list-stuff *ngIf="!loading; else disclaimer;" [dataSource]="vehiclesData"
+    [enableActions]="checkSudo()" [key]="key" [onDeleteCallback]="onDelete"
+    [onViewCallback]="onView">
+</list-stuff>
+<ng-template #disclaimer>
+    <h1> Loading ... </h1>
+</ng-template>

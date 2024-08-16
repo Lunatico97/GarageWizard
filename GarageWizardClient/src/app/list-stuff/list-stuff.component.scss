@@ -1,0 +1,22 @@
+table 
+{
+  width: 100%;
+}
+
+.mat-header-cell{
+  font-style: italic;
+}
+
+.mat-row .mat-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+
+.mat-row:hover .mat-cell {
+  border-color: green;
+  font-weight: bolder;
+}
+
+#action-container{
+  background-color: black;
+}

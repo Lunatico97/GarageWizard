@@ -1,0 +1,79 @@
+<button mat-raised-button color="warn" (click)="onBackCallback()"> Back to vehicles </button>
+<hr/>
+
+<!-- <button mat-raised-button (click)="isLinear = !isLinear" id="toggle-linear">
+    {{!isLinear ? 'Enable linear mode' : 'Disable linear mode'}}
+</button> -->
+  <mat-stepper [linear]="isLinear" #stepper>
+    <!-- First park your vehicle ! -->
+    <mat-step [stepControl]="parkFormGroup">
+      <form [formGroup]="parkFormGroup" (ngSubmit)="onParkCallback()">
+        <ng-template matStepLabel>Enter your vehicle details</ng-template>
+        <mat-form-field appearance="fill">
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="Corolla" formControlName="name" required>
+          <mat-error>
+            Name can't be empty and it shouldn't start with anything but an alphabet !
+          </mat-error>
+        </mat-form-field><br>
+        <mat-form-field appearance="fill">
+            <mat-label>Vendor</mat-label>
+            <input matInput placeholder="Toyota" formControlName="vendor" required>
+            <mat-error>
+                Vendor can't be empty and it shouldn't start with anything but an alphabet !
+            </mat-error>
+          </mat-form-field><br>
+          <mat-form-field appearance="fill">
+            <mat-label>Registration ID</mat-label>
+            <input matInput placeholder="XX-YYY" formControlName="regID" required>
+            <mat-error>
+                Your unique registration ID is a must! Format: [XX:YYY] where XX is national code and YYY is unique number
+            </mat-error>
+          </mat-form-field><br>
+          <mat-form-field appearance="fill">
+            <mat-label>Wheels</mat-label>
+            <input matInput type="number" min="1" formControlName="wheels" required>
+            <mat-error>
+                A vehicle can't have no wheels !
+            </mat-error>
+          </mat-form-field><br>
+        <div>
+          <button [disabled]="nextDisabled" mat-button matStepperNext type="submit">Next</button>
+        </div>
+      </form>
+    </mat-step>
+
+    <!-- Then reserve a vacant spot ! -->
+    <mat-step [stepControl]="reserveFormGroup" label="Reserve a vacant spot">
+      <form [formGroup]="reserveFormGroup" (ngSubmit)="onReserveCallback()">
+        <mat-form-field appearance="fill">
+            <mat-label>Spot ID</mat-label>
+            <mat-select formControlName="spotID">
+              <mat-option *ngFor="let spot of vacantSpots" [value]="spot.id">
+                {{ spot.id }} | Capacity: {{ spot.capacity }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field><br>
+          <mat-form-field appearance="fill">
+            <mat-label>Service Type</mat-label>
+            <mat-select formControlName="service">
+              <mat-option *ngFor="let s of serviceClass;" [value]="serviceClass.indexOf(s)+1">
+                {{ s }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <div>
+            <!-- <button mat-button matStepperPrevious>Back</button> -->
+            <button mat-button matStepperNext>Next</button>
+          </div>
+      </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel *ngIf="!reserveFail">Kudos !</ng-template>
+      <p> The spot is allocated - Repairs can be performed if necessary from 'Jobs' section ! </p>
+      <div>
+        <!-- <button mat-button matStepperPrevious>Back</button> -->
+        <button mat-button (click)="onConfirmCallback()">Confirm</button>
+      </div>
+    </mat-step>
+  </mat-stepper>

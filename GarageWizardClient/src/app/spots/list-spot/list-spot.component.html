@@ -1,0 +1,25 @@
+<form *ngIf="_accountService.checkIfUserisTechnician()" [formGroup]="spotFormGroup" (ngSubmit)="onAddSpotCallback()">
+    <mat-form-field appearance="fill">
+      <mat-label>Spot ID</mat-label>
+      <input matInput placeholder="[X:Y:ZZ]" formControlName="spotID" required>
+      <mat-error>
+        Spot identifier should be of type: [X-Y-ZZ] where X: Floor, Y: Number, Z: Unique spot locator
+      </mat-error>
+    </mat-form-field> &nbsp;
+    <mat-form-field appearance="fill">
+        <mat-label>Capacity</mat-label>
+        <input matInput formControlName="capacity" type="number" min="2" required>
+        <mat-error>
+            Spot should attain a capacity of 2 or more.
+        </mat-error>
+    </mat-form-field> &nbsp;
+    <button mat-raised-button color="accent" type="submit">Add spot</button>
+</form>
+<br>
+<hr/>
+<list-stuff *ngIf="!loading; else disclaimer;" [dataSource]="spotsData" [viewDisabled]="true"
+             [enableActions]="_accountService.checkIfUserisTechnician()" [key]="key" [onDeleteCallback]="onDelete">
+            </list-stuff>
+<ng-template #disclaimer>
+    <h1> Loading ... </h1>
+</ng-template>

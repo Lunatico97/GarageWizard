@@ -1,0 +1,27 @@
+<form [formGroup]="repairFormGroup" (ngSubmit)="onSubmitCallback()">
+    <h2> View all pending repair transactions </h2>
+            <mat-form-field appearance="fill">
+                <mat-label>Vehicle ID</mat-label>
+                <mat-select formControlName="vehicleID">
+                    <mat-option [value]="">Select</mat-option>
+                    <mat-option *ngFor="let vehicle of vehicles;" [value]="vehicle.regID"> {{ vehicle.regID }} </mat-option>
+                </mat-select>
+                <mat-error>
+                    Choose a vehicle for repair !
+                </mat-error>
+            </mat-form-field>
+            <br>
+            <button mat-raised-button color="accent" type="submit">View repairs</button>
+</form>
+<div *ngIf="showList">
+    <list-stuff *ngIf="transactions.length > 0; else block;" [dataSource]="transactions" [enableActions]="false"></list-stuff>
+    <ng-template #block>
+        <h3> No pending repairs associated to this vehicle ! </h3>
+    </ng-template>
+    <br>
+    <button *ngIf="transactions.length > 0 && checkIfUserisTechnician()" mat-raised-button color="primary" type="submit" (click)="onCompleteCallback()">
+        Mark it as Serviced ? 
+    </button>
+</div>
+    
+    

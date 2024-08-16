@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vehicle>
+    <Name>Corolla</Name>
+    <Vendor>Toyota</Vendor>
+    <Wheels>4</Wheels>
+    <RegID>EM123</RegID>
+    <ParkStart>2024-05-17T17:30:01.997795+05:45</ParkStart>
+  </Vehicle>
+  <Vehicle>
+    <Name>Ninja</Name>
+    <Vendor>Kawasaki</Vendor>
+    <Wheels>2</Wheels>
+    <RegID>JP673</RegID>
+    <ParkStart>2024-05-20T11:36:16.5773175+05:45</ParkStart>
+  </Vehicle>
+  <Vehicle>
+    <Name>Burgman</Name>
+    <Vendor>Suzuki</Vendor>
+    <Wheels>2</Wheels>
+    <RegID>NP782</RegID>
+    <ParkStart>2024-05-20T09:36:24.5885295+05:45</ParkStart>
+  </Vehicle>
+  <Vehicle>
+    <Name>T-1</Name>
+    <Vendor>Tesla</Vendor>
+    <Wheels>4</Wheels>
+    <RegID>TX783</RegID>
+    <ParkStart>2024-05-24T12:39:30.1761186+05:45</ParkStart>
+  </Vehicle>
+  <Vehicle>
+    <Name>ATV</Name>
+    <Vendor>Red Bull</Vendor>
+    <Wheels>3</Wheels>
+    <RegID>XT659</RegID>
+    <ParkStart>2024-05-24T13:52:59.923</ParkStart>
+  </Vehicle>
+</ArrayOfVehicle>

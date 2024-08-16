@@ -1,0 +1,46 @@
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <!-- // Dynamic container -->
+    <ng-container *ngFor="let col of displayedColumns" matColumnDef="{{ col }}">
+      <th mat-header-cell *matHeaderCellDef> {{ col | cap}} </th>
+      <td mat-cell *matCellDef="let element"> {{element[col]}} </td>
+    </ng-container>
+
+    <!-- // Static headers -->
+    <div id="action-container">
+      <ng-container matColumnDef="actions" *ngIf="enableActions">
+        <th mat-header-cell *matHeaderCellDef> Actions </th>
+        <td mat-cell *matCellDef="let row;">
+          <button mat-icon-button [disabled]="viewDisabled" *ngIf="!viewDisabled" (click)="onViewCallback(row[key])">
+            <mat-icon color="primary">visibility</mat-icon>
+          </button>
+          <!-- <button mat-icon-button (click)="onEditCallback(row[key])">
+            <mat-icon color="primary">edit</mat-icon>
+          </button> -->
+          <button mat-icon-button (click)="onDeleteCallback(row[key])">
+            <mat-icon color="warn">delete</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+    </div>
+
+    <tr mat-header-row *matHeaderRowDef="displayedNewColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedNewColumns;"></tr>
+  </table>
+
+  <!-- I made a similar dynamic table but, without Angular material-->
+  <!-- <table>
+    <thead>
+      <tr>
+        <th *ngFor="let col of displayedColumns">
+          {{ col | cap }}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dataRow of dataSource">
+        <td *ngFor="let key of displayedColumns">
+          {{ dataRow[key] }}
+      </td>
+      </tr>
+    </tbody>
+  </table> -->

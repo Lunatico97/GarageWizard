@@ -1,0 +1,609 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\service tests\\parkingaccess.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\service tests\\parkingaccess.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\data\\garagedummydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\data\\garagedummydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\data\\mockgaragedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\data\\mockgaragedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\services\\parkingaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\services\\parkingaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\data\\garagedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\data\\garagedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\services\\interfaces\\itoll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\services\\interfaces\\itoll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\services\\interfaces\\igarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\services\\interfaces\\igarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\services\\interfaces\\iparking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\services\\interfaces\\iparking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\services\\interfaces\\irepair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\services\\interfaces\\irepair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\services\\repairaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\services\\repairaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\services\\tollaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\services\\tollaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\service tests\\garageaccess.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\service tests\\garageaccess.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\services\\garageaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\services\\garageaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\service tests\\tollaccess.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\service tests\\tollaccess.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\controller tests\\admincontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\controller tests\\admincontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\controller tests\\accountcontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\controller tests\\accountcontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\models\\spot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\models\\spot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\models\\userchangedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\models\\userchangedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\models\\jobview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\models\\jobview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\models\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\models\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\service tests\\repairaccess.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\service tests\\repairaccess.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\controller tests\\vehiclecontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\controller tests\\vehiclecontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\models\\parkingbydaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\models\\parkingbydaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\models\\statisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\models\\statisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\validators\\vehiclevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\validators\\vehiclevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\controller tests\\jobcontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\controller tests\\jobcontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoreapi.tests\\controller tests\\homecontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD95ABF-9AD8-4FD5-8C84-7505C0DB1BA6}|GarageCoreAPI.Tests\\GarageCoreAPI.Tests.csproj|solutionrelative:garagecoreapi.tests\\controller tests\\homecontroller.test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\common\\configurations\\globalconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\common\\configurations\\globalconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\data\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\data\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|c:\\users\\i44350\\documents\\practice projects\\garagecoreapi\\garagecoremvc\\data\\istorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F447C3E-625C-4E1D-9D9B-0F2C15A74689}|GarageCoreMVC\\GarageCoreAPI.csproj|solutionrelative:garagecoremvc\\data\\istorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GarageDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Data\\GarageDBContext.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Data\\GarageDBContext.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Data\\GarageDBContext.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Data\\GarageDBContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:59:31.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParkingAccess.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\ParkingAccess.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Services\\ParkingAccess.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\ParkingAccess.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Services\\ParkingAccess.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:52:14.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParkingAccess.Test.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Service Tests\\ParkingAccess.Test.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Service Tests\\ParkingAccess.Test.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Service Tests\\ParkingAccess.Test.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Service Tests\\ParkingAccess.Test.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAuwIcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:52:37.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GarageDummyData.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Data\\GarageDummyData.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Data\\GarageDummyData.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Data\\GarageDummyData.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Data\\GarageDummyData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:30:00.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MockGarageDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Data\\MockGarageDBContext.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Data\\MockGarageDBContext.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Data\\MockGarageDBContext.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Data\\MockGarageDBContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:29:17.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IToll.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\Interfaces\\IToll.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Services\\Interfaces\\IToll.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\Interfaces\\IToll.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Services\\Interfaces\\IToll.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:58:52.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGarage.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\Interfaces\\IGarage.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Services\\Interfaces\\IGarage.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\Interfaces\\IGarage.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Services\\Interfaces\\IGarage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:58:49.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IParking.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\Interfaces\\IParking.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Services\\Interfaces\\IParking.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\Interfaces\\IParking.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Services\\Interfaces\\IParking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:58:48.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepair.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\Interfaces\\IRepair.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Services\\Interfaces\\IRepair.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\Interfaces\\IRepair.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Services\\Interfaces\\IRepair.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:58:46.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RepairAccess.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\RepairAccess.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Services\\RepairAccess.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\RepairAccess.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Services\\RepairAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:52:25.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TollAccess.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\TollAccess.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Services\\TollAccess.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\TollAccess.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Services\\TollAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:52:31.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GarageAccess.Test.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Service Tests\\GarageAccess.Test.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Service Tests\\GarageAccess.Test.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Service Tests\\GarageAccess.Test.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Service Tests\\GarageAccess.Test.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAuwKsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:56:43.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TollAccess.Test.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Service Tests\\TollAccess.Test.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Service Tests\\TollAccess.Test.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Service Tests\\TollAccess.Test.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Service Tests\\TollAccess.Test.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:59:56.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GarageAccess.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\GarageAccess.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Services\\GarageAccess.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Services\\GarageAccess.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Services\\GarageAccess.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAswIIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:33:16.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwBoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T08:24:13.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminController.Test.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\AdminController.Test.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Controller Tests\\AdminController.Test.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\AdminController.Test.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Controller Tests\\AdminController.Test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:09:30.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountController.Test.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\AccountController.Test.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Controller Tests\\AccountController.Test.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\AccountController.Test.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Controller Tests\\AccountController.Test.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAIwNcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:12:47.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Spot.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\Spot.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Models\\Spot.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\Spot.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Models\\Spot.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:49:06.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\Vehicle.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Models\\Vehicle.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:47:47.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserChangeDto.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\UserChangeDto.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Models\\UserChangeDto.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\UserChangeDto.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Models\\UserChangeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:05:52.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Models\\UserDto.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\UserDto.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Models\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:06:04.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JobView.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\JobView.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Models\\JobView.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\JobView.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Models\\JobView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:03:28.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RepairAccess.Test.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Service Tests\\RepairAccess.Test.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Service Tests\\RepairAccess.Test.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Service Tests\\RepairAccess.Test.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Service Tests\\RepairAccess.Test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:59:50.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VehicleController.Test.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\VehicleController.Test.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Controller Tests\\VehicleController.Test.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\VehicleController.Test.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Controller Tests\\VehicleController.Test.cs",
+              "ViewState": "AQIAAD4BAAAAAAAAAAAYwEoBAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T05:08:57.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Controllers\\JobController.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Controllers\\JobController.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Controllers\\JobController.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAAAB8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T05:45:50.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Controllers\\VehicleController.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAAALkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T06:30:38.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Models\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\MappingProfile.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Models\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:24:49.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ParkingByDayDto.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\ParkingByDayDto.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Models\\ParkingByDayDto.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\ParkingByDayDto.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Models\\ParkingByDayDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T06:43:54.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StatisticsDto.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\StatisticsDto.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Models\\StatisticsDto.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Models\\StatisticsDto.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Models\\StatisticsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T06:46:06.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VehicleValidator.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Validators\\VehicleValidator.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Validators\\VehicleValidator.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Validators\\VehicleValidator.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Validators\\VehicleValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T05:28:25.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "JobController.Test.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\JobController.Test.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Controller Tests\\JobController.Test.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\JobController.Test.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Controller Tests\\JobController.Test.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAiwKYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:59:30.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HomeController.Test.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\HomeController.Test.cs",
+              "RelativeDocumentMoniker": "GarageCoreAPI.Tests\\Controller Tests\\HomeController.Test.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreAPI.Tests\\Controller Tests\\HomeController.Test.cs",
+              "RelativeToolTip": "GarageCoreAPI.Tests\\Controller Tests\\HomeController.Test.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:59:26.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GlobalConfig.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Common\\Configurations\\GlobalConfig.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Common\\Configurations\\GlobalConfig.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Common\\Configurations\\GlobalConfig.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Common\\Configurations\\GlobalConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:20:23.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Storage.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Data\\Storage.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Data\\Storage.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Data\\Storage.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Data\\Storage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:19:09.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IStorage.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Data\\IStorage.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Data\\IStorage.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Data\\IStorage.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Data\\IStorage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:17:14.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "GarageCoreMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\I44350\\Documents\\Practice Projects\\GarageCoreAPI\\GarageCoreMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "GarageCoreMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAuwLIAAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:15:53.443Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

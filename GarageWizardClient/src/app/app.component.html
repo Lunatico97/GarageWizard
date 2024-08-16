@@ -1,0 +1,22 @@
+<div class="banner">
+  <img mat-card-avatar src="assets\garage.png"><br>
+  <span id="title">
+    Welcome to {{ title }} !
+  </span>
+  <div *ngIf="!this.checkIfLoggedIn(); else block;">
+    <button mat-raised-button color="accent" id="account-button" (click)="this.routeTo('account')" aria-label="Account">
+      <img src="assets\account.png">
+      Account
+    </button>
+  </div>
+  <ng-template #block>    
+    <button mat-raised-button color="accent" id="account-button" (click)="this.onLogoutCallback()" aria-label="Logout">
+      <img src="assets\logout.png">
+      Logout
+    </button>
+  </ng-template>
+</div>
+<app-navbar [navlinks]="navlinks" [navTitles]="navTitles" [navImg]="navImages"></app-navbar>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>

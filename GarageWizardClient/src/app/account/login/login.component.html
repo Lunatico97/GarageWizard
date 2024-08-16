@@ -1,0 +1,26 @@
+
+<div>
+    <form class="login-form" [formGroup]="userLoginForm" (ngSubmit)="onLoginCallback()">
+        <mat-form-field>
+            <mat-label> Email </mat-label>
+            <input matInput type="email" formControlName="Email">
+            <mat-error>
+                Email can't be empty !
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label> Password </mat-label>
+            <input matInput type="password" formControlName="Password">
+            <mat-error>
+                Please enter your valid password !
+            </mat-error>
+        </mat-form-field>
+        <mat-checkbox formControlName="RememberMe"> Remember me ? </mat-checkbox>
+        <br>
+        <button mat-raised-button type="submit" color="primary"> Login </button><br>
+        <mat-error *ngIf="(!userLoginForm.valid && userLoginForm.errors != null)">
+            {{ userLoginForm.errors['message'] }}
+        </mat-error>
+    </form>
+</div>
+

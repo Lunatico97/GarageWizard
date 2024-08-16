@@ -1,0 +1,48 @@
+.roles-content
+{
+    padding: 20px;
+    column-gap: 20px;
+    display: inline-flex;
+}
+
+.role-card
+{
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: #FFFFFF;
+    // margin-left: 50%;
+    // margin-top: 50%;
+}
+
+.role-card img{
+    padding: 5px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.role-card:hover{
+    transform: translateY(10px);
+}
+
+.role-card:hover mat-card-header{
+    color: purple;
+}
+
+.role-card:hover mat-card-content{
+    font-weight: bolder;
+}
+
+.role-users img{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.example-container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }

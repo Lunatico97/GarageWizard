@@ -1,0 +1,38 @@
+.banner{
+    background-color: #4d4899;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+}
+
+.banner span
+{
+    color: goldenrod;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.banner img {
+    width: 40px;
+    height: 40px;
+}
+
+.content
+{
+    padding: 20px;
+}
+
+#account-button
+{
+    background-color: goldenrod;
+    border-radius: 10px;
+    float: right;
+    bottom: 30px;
+}
+
+#account-button img{
+    width: 30px;
+    height: 30px;
+}
+

@@ -1,0 +1,35 @@
+<!-- <button mat-raised-button color="accent" (click)="this._router.routeToPath('')"> Create new role </button> -->
+<h2> Roles </h2>
+<hr/>
+<div *ngFor="let role of rolesData;" class="roles-content">
+    <mat-card class="role-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image">
+            <img mat-card-image src="assets/roles.png" alt="Role">
+          </div>
+          <mat-card-title> {{ role.name }} </mat-card-title>
+          <mat-card-subtitle> {{ role.id }} </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            {{ role.description }}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="onViewCallback(role.id);"> View </button>
+        </mat-card-actions>
+    </mat-card>
+</div>
+<hr/>
+
+<div *ngIf="viewRoleUsers" class="role-users">
+      <span> Role Access to '{{ roleDetails.name }}' role </span>
+      <ul *ngFor="let user of allUsers;">
+        <mat-checkbox [checked]="checkIfUserIsSelected(user.email)" (change)="toggleUserAccess(user.email)"> 
+          {{ user.name }} [{{ user.email }}] &nbsp;
+          <img *ngIf="checkIfUserHasAccess(user.email)" src="assets\roles.png">
+          <br>
+        </mat-checkbox>
+      </ul>
+      <button mat-raised-button color="primary" (click)="onEditAccessCallback()"> Edit access list </button>
+</div>

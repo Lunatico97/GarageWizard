@@ -1,0 +1,15 @@
+.server-dead
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.server-dead h1{
+    font-weight: bolder;
+}
+
+.server-dead p{
+    font-style: italic;
+}

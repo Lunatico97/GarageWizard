@@ -1,0 +1,35 @@
+<div>
+    <form class="register-form" [formGroup]="userRegisterForm" (ngSubmit)="onRegisterCallback()">
+        <mat-form-field>
+            <mat-label> Name </mat-label>
+            <input matInput type="text" formControlName="Name">
+            <mat-error>
+                Name can't be empty !
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label> Email </mat-label>
+            <input matInput type="email" formControlName="Email">
+            <mat-error>
+                Email must be valid and can't be empty !
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label> Password </mat-label>
+            <input matInput type="password" formControlName="Password">
+            <mat-error>
+                You need to input a valid password with a minimum of 8 characters !
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label> Confirm Password </mat-label>
+            <input matInput type="password" formControlName="ConfirmPassword">
+        </mat-form-field>
+        <small *ngIf="!userRegisterForm.controls['Password'].pristine && !userRegisterForm.controls['ConfirmPassword'].pristine">
+            <mat-error *ngIf="(!userRegisterForm.valid && userRegisterForm.errors != null)">
+                {{ userRegisterForm.errors['message'] }}
+            </mat-error>
+        </small>
+        <button mat-raised-button type="submit" color="primary"> Register </button> 
+    </form>
+</div>

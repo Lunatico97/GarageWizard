@@ -1,0 +1,75 @@
+<form [formGroup]="repairFormGroup" (ngSubmit)="onConfirmCallback()">
+<div class="jobs">
+    <div class="jobs-header">
+        <h2> Add repair jobs for parked vehicles </h2>
+        <mat-form-field appearance="fill">
+            <mat-label>Vehicle ID</mat-label>
+            <mat-select formControlName="vehicleID">
+                <mat-option [value]="">Select</mat-option>
+                <mat-option *ngFor="let vehicle of vehicles;" [value]="vehicle.regID"> {{ vehicle.regID }} </mat-option>
+            </mat-select>
+            <mat-error>
+                Choose a vehicle for repair !
+            </mat-error>
+        </mat-form-field>
+        <hr/>
+    </div>
+    <div class="jobs-body">
+        <div class="jobs-content">    
+            <mat-card class="job-card" *ngFor="let job of jobsData; let i = index;">
+                <mat-card-header>
+                  <mat-card-title> {{ job.name | cap }} </mat-card-title>
+                  <mat-card-subtitle>
+                    {{ job.id }} 
+                  </mat-card-subtitle>
+                  <h5> <img src="assets/clock.png"> {{ job.hours }} hrs </h5> &nbsp;
+                  <h5> <img src="assets/money.png">  $ {{ job.charge }}   </h5>
+                </mat-card-header>
+                <mat-card-content>
+                    <p>
+                      {{ job.description }}
+                    </p>
+                    <img [src]="imageFiles[i]"> 
+                    <!-- <img *ngIf="job.jobImagePath != ''; else block;" mat-card-image src="{{ imageFile }}" alt="{{ job.name }}">
+                    <ng-template #block><img src="assets/maintenance.png"></ng-template> -->
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button color="primary" [disabled]="toggleDisabled(job)" (click)="onAddCallback(job)"> Add </button>
+                </mat-card-actions> 
+            </mat-card>
+        </div>
+        <div class="repair-cart">
+            <span> Repair cart </span>
+            <hr/>
+            <ul class="repairs" *ngIf="selectedJobs.length > 0; else empty;">
+                <li *ngFor="let selectedJob of selectedJobs;"> 
+                    <img src="assets/cancel.png" (click)="onRemoveCallback(selectedJob)"> &nbsp; {{ selectedJob.name }} 
+                </li>
+            </ul>
+            <ng-template #empty> No repairs selected ! </ng-template>
+            <div class="repair-info">
+                <hr/>
+                <h5> <img src="assets/clock.png"> {{ tempHours }} hrs | <img src="assets/money.png"> $ {{ tempTotal }}  </h5>
+            </div>
+            <button mat-raised-button [disabled]="selectedJobs.length === 0 || !repairFormGroup.valid" color="accent" type="submit">Confirm</button>
+            <mat-error *ngIf="!repairFormGroup.valid">
+                Choose a vehicle first !
+            </mat-error>
+        </div>
+    </div>
+</div>
+</form>
+<!-- <confirmation-box [onConfirmationCallback]="onConfirmationCallback" [onDenialCallback]="onDenialCallback" 
+                  [showConfirmationBox]="this.showConfirmationBox" [confirmationDialog]="'Are you sure about these repairs ?'">
+</confirmation-box> -->
+<div *ngIf="showConfirmationBox" class="overlay">
+    <div class="confirmationBox">
+        <span> Are you sure about these repairs ? </span><br>
+        <span>
+            <button mat-flat-button color="accent" (click)="onConfirmationCallback()"> Yes </button> &nbsp;
+            <button mat-flat-button color="warn" (click)="onDenialCallback()"> No </button>
+        </span>
+    </div>
+</div>
+
+
